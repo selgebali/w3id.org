@@ -19,4 +19,4 @@ RewriteRule ^vocab/([^/]+)/([^/.]+)$ https://tibhannover.github.io/datacite/voca
 RewriteRule ^(class|property|vocab)/(.*\.jsonld)$ https://tibhannover.github.io/datacite/$1/$2 [R=302,L]
 
 # Concrete supporting documents
-RewriteRule ^(context|manifest|dist)/(.*)$ https://tibhannover.github.io/datacite/$1/$2 [R=302,L]
+RewriteRule ^(context|manifest|dist|mappings)/(.*)$ https://tibhannover.github.io/datacite/$1/$2 [R=302,L]
